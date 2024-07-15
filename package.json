@@ -1,0 +1,13 @@
+{
+  "name": "tasker",
+  "version": "1.0.0",
+  "displayName": "Tasker Utility",
+  "description": "Simple background task to receive and perform sleep and reboot commands. Run as root.",
+  "main": "tasker.js",
+  "author": "Greg Sprick, RLMG <greg@rlmg.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.6.15",
+    "npm": ">=6.4"
+  }
+}
