@@ -36,3 +36,5 @@ Settings can be changed in a config file, config.json. This file is now required
 4. Set up a batch file in Startup Items or a shell script that can be launched several ways. 
 
 Note: the simplest way to run is node C:/RLMG/Tasker/tasker.mjs
+
+With PM2 installed, simply run `npm start` to launch PM2 with settings from the `ecosystem.config.js` file.
