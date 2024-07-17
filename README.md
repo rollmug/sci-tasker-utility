@@ -3,6 +3,9 @@
 Background task to receive and perform sleep and shutdown commands. 
 
 ## Project Setup
+
+[Installation instructions for PM2 available here](https://rlmg.bitdocs.ai/share/d/ij1VRefgZV3B1N65).
+
 This is a node app that can be run in a terminal, docker or using a process manager like PM2. The app requires admin or root access to function.
 
 There are no dependencies so npm is not required to install packages. In fact, only the tasker.mjs file is required.
