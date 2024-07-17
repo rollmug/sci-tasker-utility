@@ -37,4 +37,6 @@ Settings can be changed in a config file, config.json. This file is now required
 
 Note: the simplest way to run is node C:/RLMG/Tasker/tasker.mjs
 
-With PM2 installed, simply run `npm start` to launch PM2 with settings from the `ecosystem.config.js` file.
+## Running with PM2
+
+With PM2 installed, simply run `npm start` from this directory to launch PM2 with the config settings in the `ecosystem.config.js` file.
