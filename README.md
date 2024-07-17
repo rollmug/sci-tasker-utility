@@ -4,8 +4,6 @@ Background task to receive and perform sleep and shutdown commands.
 
 ## Project Setup
 
-[Installation instructions for PM2 available here](https://rlmg.bitdocs.ai/share/d/ij1VRefgZV3B1N65).
-
 This is a node app that can be run in a terminal, docker or using a process manager like PM2. The app requires admin or root access to function.
 
 There are no dependencies so npm is not required to install packages. In fact, only the tasker.mjs file is required.
@@ -28,17 +26,8 @@ Default IP address: 0.0.0.0 (all externally available interfaces)
 Settings can be changed in a config file, config.json. This file is now required. These settings can be overwritten with environmental variables: TASKER_PORT and TASKER_HOST. Finally, these settings can be overwritten in the commmand line with PORT and HOST arguments.
 
 ## Installation
-1. Copy the Tasker folder to C:/RLMG/
 
-2. Install a current LTS version of node using a standard install method.
-
-3. I recommend using a process manager like PM2
-- install PM2: npm install pm2 -g
-- run with PM2: pm2 start C:/RLMG/Tasker/tasker.mjs
-
-4. Set up a batch file in Startup Items or a shell script that can be launched several ways. 
-
-Note: the simplest way to run is node C:/RLMG/Tasker/tasker.mjs
+[Installation instructions for PM2 available here](https://rlmg.bitdocs.ai/share/d/ij1VRefgZV3B1N65).
 
 ## Running with PM2
 
